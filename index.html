@@ -411,10 +411,10 @@
                 </ul>
             </div>
             <div class="form-footer">
+                <p class="form-footer-text">Subscribe</p>
                 <form class="form" name="issue_report_form" autocomplete="off">
                     <label class="form-label" for="email-footer">
-                        Subscribe
-                        <input class="form-input" type="email" name="email" id="email-footer" placeholder="E-mail" autofocus required />
+                        <input class="form-input" type="email" name="email" id="email-footer" placeholder="E-mail" required/>
                     </label>
                     <button class="form-button" type="submit">Subscribe
                         <svg class="icon-button" width="24" height="24">
@@ -426,7 +426,7 @@
         </div>
     </footer>
 
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
         <div class="modal">
             <!-- SVG для кнопки закриття -->
             <button class="close-button" type="button">
@@ -458,8 +458,8 @@
                         <use href="./images/icons.svg#icon-email"></use>
                     </svg></div></div>
                     <div class="modal-form-coment">
-                <label class="label-form-modal" for="comment">Comment</label>                   
-                    <textarea class="input-modal-comment" name="comment" id="comment" placeholder="Text input"></textarea></div>
+                <label class="label-form-modal" for="useer-comment">Comment</label>                   
+                    <textarea class="input-modal-comment" name="comment" id="user-comment" placeholder="Text input"></textarea></div>
                     <!-- Чекбокс із кастомною галочкою -->
             
                     <input class="visually-hidden" type="checkbox" name="privacy" value="true" id="privacy" required>
